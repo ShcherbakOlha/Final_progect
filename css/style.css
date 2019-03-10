@@ -1,0 +1,392 @@
+@font-face {
+  font-family: 'AsapBold';
+  src: url("../fonts/AsapBold.eot");
+  src: url("../fonts/AsapBold.eot") format("embedded-opentype"), url("../fonts/AsapBold.woff2") format("woff2"), url("../fonts/AsapBold.woff") format("woff"), url("../fonts/AsapBold.ttf") format("truetype"), url("../fonts/AsapBold.svg#AsapBold") format("svg"); }
+@font-face {
+  font-family: 'AsapRegular';
+  src: url("../fonts/AsapRegular.eot");
+  src: url("../fonts/AsapRegular.eot") format("embedded-opentype"), url("../fonts/AsapRegular.woff2") format("woff2"), url("../fonts/AsapRegular.woff") format("woff"), url("../fonts/AsapRegular.ttf") format("truetype"), url("../fonts/AsapRegular.svg#AsapRegular") format("svg"); }
+@font-face {
+  font-family: 'AsapMedium';
+  src: url("../fonts/AsapMedium.eot");
+  src: url("../fonts/AsapMedium.eot") format("embedded-opentype"), url("../fonts/AsapMedium.woff2") format("woff2"), url("../fonts/AsapMedium.woff") format("woff"), url("../fonts/AsapMedium.ttf") format("truetype"), url("../fonts/AsapMedium.svg#AsapMedium") format("svg"); }
+header, .second_block {
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+
+.header_text_block {
+  display: flex;
+  background: none;
+  flex-wrap: wrap; }
+  .header_text_block .background_photo {
+    margin-top: 100px; }
+  .header_text_block .header_text {
+    font-family: 'AsapMedium';
+    margin-top: 100px;
+    flex-grow: 2; }
+    .header_text_block .header_text h1 {
+      font-family: 'AsapMedium';
+      color: #4d4d4d;
+      font-size: 85px;
+      margin-top: 140px; }
+    .header_text_block .header_text h2 {
+      font-family: 'AsapMedium';
+      color: #999999;
+      font-size: 22px;
+      margin-top: 23px; }
+    .header_text_block .header_text button {
+      font-family: 'AsapMedium';
+      padding: 20px 35px;
+      background: white;
+      border: none;
+      margin-top: 25px;
+      border-bottom: 1px solid transparent;
+      text-decoration: none;
+      display: block; }
+    .header_text_block .header_text button:hover {
+      border: solid 1px #4d4d4d; }
+
+.navbar-brand, .navbar-nav > li > a {
+  font-family: 'AsapMedium';
+  color: #4d4d4d;
+  text-transform: uppercase; }
+  .navbar-brand:hover, .navbar-nav > li > a:hover {
+    text-transform: none;
+    padding-bottom: 9px;
+    background: none;
+    border-bottom: solid 2px #878787; }
+
+.navbar {
+  margin-bottom: 0; }
+
+.know {
+  display: flex;
+  margin-top: 108px;
+  padding-bottom: 126px; }
+  @media screen and (min-width: 370px) and (max-width: 920px) {
+    .know {
+      flex-wrap: wrap;
+      margin-top: 50px;
+      padding-bottom: 10px; } }
+  .know .know_more {
+    margin-top: 60px; }
+    .know .know_more h2 {
+      font-family: 'AsapBold';
+      letter-spacing: 9px;
+      width: 75%;
+      border-bottom: 2px solid transparent;
+      color: #7b7b7b;
+      font-size: 46px;
+      text-decoration: none; }
+    .know .know_more h2:before {
+      display: block;
+      content: "";
+      margin-bottom: 20px;
+      background-color: #7a7a7a;
+      height: 4px;
+      width: 60px; }
+    .know .know_more p {
+      font-family: 'AsapRegular';
+      width: 75%;
+      color: #4d4d4d;
+      font-size: 16px; }
+    .know .know_more .download_my button {
+      font-family: 'AsapMedium';
+      padding: 20px 47px;
+      background: white;
+      margin-top: 25px;
+      border: 2px solid #4d4d4d;
+      text-decoration: none;
+      display: block;
+      color: #4d4d4d; }
+
+.service {
+  background: #f6f6f6; }
+  .service .service_text h2 {
+    font-family: 'AsapBold';
+    font-size: 46px;
+    color: #787878;
+    letter-spacing: 11px;
+    text-align: center;
+    margin-bottom: 72px;
+    margin-top: 117px;
+    text-transform: uppercase; }
+  .service h2:before {
+    display: block;
+    content: "";
+    background-color: #7a7a7a;
+    height: 4px;
+    width: 60px;
+    margin: auto; }
+
+.first_line {
+  margin-bottom: 86px; }
+  .first_line h3 {
+    font-family: 'AsapMedium';
+    color: #4d4d4d;
+    font-size: 24px; }
+
+.second_line {
+  margin-bottom: 115px; }
+  .second_line h3 {
+    font-family: 'AsapMedium';
+    color: #4d4d4d;
+    font-size: 24px; }
+
+.skill h3 {
+  font-family: 'AsapBold';
+  text-transform: uppercase;
+  font-size: 46px;
+  letter-spacing: 10px;
+  margin-top: 140px;
+  text-align: center;
+  color: #7b7b7b;
+  margin-bottom: 63px; }
+  .skill h3:before {
+    display: block;
+    content: "";
+    background-color: #7a7a7a;
+    height: 4px;
+    width: 60px;
+    margin: auto; }
+
+.portfolio_photo {
+  background-color: #f6f6f6; }
+  .portfolio_photo .portfolio h3 {
+    font-family: 'AsapBold';
+    font-size: 46px;
+    text-transform: uppercase;
+    margin-top: 125px;
+    margin-bottom: 46px;
+    text-align: center;
+    color: #787878; }
+    .portfolio_photo .portfolio h3:before {
+      display: block;
+      content: "";
+      background-color: #787878;
+      height: 4px;
+      width: 60px;
+      margin: auto; }
+
+.first_block_photo {
+  margin-bottom: 30px; }
+
+.second_block_photo {
+  margin-bottom: 34px; }
+
+.load {
+  margin-bottom: 123px; }
+  .load .load_more {
+    font-family: 'AsapMedium';
+    padding: 21px 54px;
+    background: white;
+    margin: auto;
+    font-size: 16px;
+    color: #4d4d4d;
+    border: none;
+    text-decoration: none;
+    display: block;
+    -webkit-box-shadow: 3px 3px 3px 3px #dedede;
+    box-shadow: 3px 3px 3px 3px #dedede; }
+
+.carousel-inner {
+  height: 350px;
+  border: solid 1px #212121;
+  margin-bottom: 122px; }
+  .carousel-inner .carousel-control.left, .carousel-inner .carousel-control.right {
+    background-image: none; }
+  .carousel-inner .glyphicon-chevron-left:before, .carousel-inner .glyphicon-chevron-right:before {
+    content: ""; }
+  .carousel-inner .feedback img {
+    margin-left: 120px;
+    margin-top: 81px; }
+
+.carousel-caption {
+  text-align: left;
+  margin-left: 80px;
+  padding: 0;
+  height: 160px; }
+  .carousel-caption .feedback_text .feedback_name {
+    font-family: 'AsapMedium';
+    color: #212121;
+    font-size: 30px;
+    text-shadow: none;
+    line-height: 27px; }
+  .carousel-caption .feedback_text .feedback_position {
+    color: #454545;
+    font-size: 12px;
+    text-shadow: none;
+    line-height: 10px; }
+  .carousel-caption .feedback_text .feedback_feed {
+    font-family: 'AsapRegular';
+    color: #919191;
+    font-size: 16px;
+    text-shadow: none;
+    text-transform: uppercase;
+    line-height: 27px; }
+
+.carousel-indicators li {
+  border: solid 1px #212121;
+  border-radius: 0; }
+
+.carousel-indicators .active {
+  background-color: #212121; }
+
+.testimonials h3 {
+  font-family: 'AsapBold';
+  font-size: 46px;
+  color: #7b7b7b;
+  text-align: center;
+  margin-bottom: 58px;
+  margin-top: 150px; }
+  .testimonials h3:before {
+    display: block;
+    content: "";
+    background-color: #787878;
+    height: 4px;
+    width: 60px;
+    margin: auto; }
+
+.privilege {
+  background-color: #f6f6f6; }
+  .privilege .block_privilege {
+    margin-top: 53px;
+    margin-bottom: 64px; }
+
+.block_privilege .privilege_text h3 {
+  font-size: 22px;
+  color: #444444; }
+
+.empty {
+  height: 273px; }
+
+.contact_block {
+  background-image: url("../img/footer.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+
+.contact_block .application_message {
+  display: block; }
+.contact_block .application_name {
+  font-size: 16px;
+  padding: 23px 316px 22px 8px; }
+.contact_block .application_mail {
+  margin-left: 30px;
+  font-size: 16px;
+  padding: 23px 316px 22px 8px; }
+.contact_block .application_message {
+  margin-top: 29px;
+  font-size: 16px;
+  padding: 25px 880px 2px 8px; }
+.contact_block .contact_us h3 {
+  color: white;
+  font-size: 46px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 52px;
+  margin-bottom: 70px; }
+.contact_block .contact_us h3:before {
+  display: block;
+  content: "";
+  background-color: #c1c1c1;
+  height: 4px;
+  width: 60px;
+  margin: auto; }
+
+.send_block {
+  text-align: center; }
+  .send_block button {
+    margin-top: 30px;
+    margin-bottom: 58px;
+    padding: 20px 49px 18px 31px; }
+
+.facebook, .twitter, .invision, .dribble, .behance, .google {
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 50px;
+  margin-left: 6px;
+  color: #6e6e6e; }
+  .facebook:hover, .twitter:hover, .invision:hover, .dribble:hover, .behance:hover, .google:hover {
+    background-color: #0084b4;
+    color: #ffffff; }
+
+.footer_text p {
+  color: white;
+  text-align: center;
+  font-size: 16px; }
+
+@media screen and (min-width: 370px) and (max-width: 920px) {
+  .photo_know_me img, .background_photo img {
+    margin-left: 50px;
+    margin-top: 10px;
+    max-width: 200px; }
+
+  .know .know_more h2 {
+    font-size: 30px; }
+
+  .header_text_block .header_text h1 {
+    margin-top: 0;
+    font-size: 30px; }
+
+  .header_text_block .header_text h2 {
+    margin-top: 0;
+    font-size: 21px; }
+
+  .service .service_text h2, .skill h3 {
+    margin-top: 30px;
+    font-size: 30px; }
+
+  .diagram img {
+    max-width: 500px; }
+
+  .portfolio_photo .portfolio h3, .testimonials h3 {
+    font-size: 30px;
+    margin-top: 25px; }
+
+  .carousel-inner .feedback img {
+    margin-left: 5px;
+    margin-top: 60px; }
+
+  .carousel-caption .feedback_text .feedback_feed {
+    font-size: 11px;
+    margin-left: 50px;
+    line-height: 12px; }
+
+  .carousel-caption .feedback_text .feedback_name {
+    font-size: 21px;
+    margin-left: 50px;
+    line-height: 12px;
+    margin-top: 20px; }
+
+  .carousel-caption .feedback_text .feedback_position {
+    font-size: 15px;
+    margin-left: 50px;
+    line-height: 15px; }
+
+  .contact_block .contact_us h3 {
+    font-size: 30px;
+    margin-top: 25px; }
+
+  .contact_block .application_name {
+    margin-left: 25px;
+    padding: 10px 100px 10px 8px; }
+
+  .contact_block .application_mail {
+    padding: 10px 100px 10px 8px;
+    margin-top: 12px;
+    margin-left: 25px; }
+
+  .contact_block .application_message {
+    padding: 10px 128px 10px 8px;
+    margin-left: 25px; }
+
+  .facebook, .twitter, .invision, .dribble, .behance, .google {
+    padding: 10px; }
+
+  .footer_text p {
+    margin-top: 15px; } }
+
+/*# sourceMappingURL=style.css.map */
